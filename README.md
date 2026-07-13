@@ -1,4 +1,4 @@
-# PACE: Probabilistic Adaptive Conformal Estimation
+# PACE: Proactive Adaptive Conformal Inference [[Paper](https://openreview.net/forum?id=3W2IAC4cNh)]
 
 PACE is a framework for **Conformal Prediction (CP)** that adapts strictly to distribution shifts in data streams using an adaptive gamma parameter. This repository contains the implementation of PACE and its evaluation on various benchmarks.
 
@@ -39,10 +39,10 @@ cd MMLU
 python mmlu.py
 ```
 
-### FActScore Experiments
-Navigate to the `FActScore/` directory.
+### WikiData Experiments
+Navigate to the `WikiData/` directory.
 ```bash
-cd FActScore
+cd WikiData
 # Run sensitivity analysis
 python sensitivity_gpt5.2_fdp.py
 ```
